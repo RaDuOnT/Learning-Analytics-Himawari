@@ -1,0 +1,37 @@
+{
+  "run_id": "20251214_123557",
+  "train_year": 2020,
+  "test_start": "2021-06-20",
+  "test_end": "2021-06-27",
+  "feature_cols": [
+    "max_rr",
+    "std_rr",
+    "frac_rainy",
+    "delta_minutes",
+    "hour_sin",
+    "hour_cos",
+    "mean_rr_lag1",
+    "mean_rr_lag2",
+    "mean_rr_lag3"
+  ],
+  "use_gpu_for_xgb": false,
+  "gpu_id": 0,
+  "results": {
+    "linear_regression": {
+      "rmse": 0.04300517835451025,
+      "r2": 0.9333050202853089
+    },
+    "decision_tree": {
+      "rmse": 0.09444298455770465,
+      "r2": 0.6783444534805299
+    },
+    "random_forest": {
+      "rmse": 0.08403329819372277,
+      "r2": 0.745343680971819
+    },
+    "xgboost": {
+      "rmse": 0.024938828490978927,
+      "r2": 0.9775713189252656
+    }
+  }
+}

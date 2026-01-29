@@ -1,0 +1,20 @@
+{
+  "run_dir": "models/20251214_123557",
+  "date_range": {
+    "start": "2021-06-01",
+    "end": "2021-06-30"
+  },
+  "rmse": {
+    "linear_regression": 0.04758133522224917,
+    "decision_tree": 0.20131072906102845,
+    "random_forest": 0.1352775356187871,
+    "xgboost": 0.027572087297933614
+  },
+  "r2": {
+    "linear_regression": 0.9701968515607823,
+    "decision_tree": 0.4665143534280882,
+    "random_forest": 0.7590980796876422,
+    "xgboost": 0.9899924403906746
+  },
+  "generated_at": "2026-01-29T14:58:11.692351"
+}
